@@ -1,0 +1,29 @@
+/* colors */
+.bg-limegreen{background-color: #a9ca45;color:white;}.bg-orange{background-color: #f5bc44; color: #013E86;}.bg-wechat{background-color: #79b542;color: white;}
+/* text colors */
+.text-deepblue{color: #013E86;}.text-lightgray{color: #c3c3c3;}.text-gray{color: #6c757d;}
+
+/* card box */
+.login-view{margin: auto;position: absolute;top: 40%;left: 50%;width: 60%; transform: translate(-50%, -50%);  }
+.login-card{position:relative;display:flex;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#fff;background-clip:border-box;border:1px solid #e3e6f0;border-radius:1px;border-bottom-right-radius: 20px;border-top: 3px solid;border-image: linear-gradient(to right,#f1f5f7,#013E86) 1 0 0 0;}
+.login-card-body{padding: 16px;}
+.login-card-footer{padding-inline-end: 40px;position: absolute;bottom: 0;right: 0;opacity: 30%;}
+
+/* buttons */
+.btn-weixin:hover, .btn-weixin:focus {background-color: #79b542;color: white;}.btn-qq:hover, .btn-qq:focus {background-color: #2f85c4;color: white;}
+.btn-ligong-blue:hover, .btn-ligong-blue:focus {background-color: #013E86;color: white;}
+
+/* form control */
+.form-control-round{font-size:.9rem;border-radius:10rem;}
+.form-control-round:focus{border:1px solid #013E86;}
+
+.school-form-group {position: relative;width: 100%;margin-bottom: 15px;}
+.school-input {/* color: #fff; */font-size: 0.9rem;background-color: transparent;width: 100%;box-sizing: border-box;padding-inline: 0.5em;padding-block: 0.7em;border: none;border-bottom: 1px solid rgba(221, 221, 221, 0.39);}
+/* styling of animated border */
+.school-input-border {position: absolute;background: #013E86;width: 0%;height: 2px;bottom: 0;left: 0;transition: 0.3s;}
+/* Hover on Input */
+input:hover {background: #4985e01f;}
+input:focus {outline: none;}
+input:focus ~ .school-input-border {width: 100%;}
+/* styling */
+.float-left{display: flex; justify-content: flex-end}.float-right{float:right!important}

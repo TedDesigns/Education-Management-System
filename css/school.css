@@ -1,0 +1,14 @@
+
+body{font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";} */
+
+/* colors */
+.bg-limegreen{background-color: #a9ca45;color:white;}.bg-orange{background-color: #f5bc44; color: #013E86;}.bg-wechat{background-color: #79b542;color: white;}
+/* text colors */
+.text-deepblue{color: #013E86;}.text-lightgray{color: #c3c3c3;}.text-gray{color: #6c757d;}
+
+
+
+/*media screen*/
+@media screen and (min-width:1000px){}
+@media screen and (max-width:800px){}
+@media screen and (max-width:600px){}
